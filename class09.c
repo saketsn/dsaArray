@@ -54,7 +54,7 @@ int main()
 {
     int arr[100] = {1, 2, 6, 78};
     int capacity = 100;
-    int size = 4, element = 45, index = 3;
+    int size = 4, element = 1000, index = 2;
     display(arr, size);
     int result = indexIsert(arr, size, capacity, element, index);
     if (result == 0)
